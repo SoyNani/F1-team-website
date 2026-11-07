@@ -1,0 +1,9 @@
+.stage {
+  z-index: 10;
+  color: var(--ink);
+  pointer-events: none;
+}
+
+.stage button {
+  pointer-events: auto;
+}

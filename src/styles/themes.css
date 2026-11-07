@@ -1,0 +1,150 @@
+[data-team="ferrari"],
+[data-team="ferrari"] * {
+  font-family: var(--font-ferrari);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+[data-team="ferrari"] .team-title,
+[data-team="ferrari"] .team-title * {
+  font-family: var(--font-ferrari-title);
+}
+
+[data-team="mercedes"],
+[data-team="mercedes"] * {
+  font-family: var(--font-mercedes);
+}
+
+[data-team="mclaren"],
+[data-team="mclaren"] * {
+  font-family: var(--font-mclaren);
+}
+
+[data-team="ferrari"] .card,
+[data-team="ferrari"] .chip,
+[data-team="ferrari"] .spec {
+  color: #1c0d08;
+  background: #f3e9d6;
+}
+
+[data-team="ferrari"] .card {
+  border-top: 9px solid;
+  border-image: linear-gradient(90deg, #008c45 33.3%, #f4f5f0 33.3% 66.6%, #cd212a 66.6%) 1;
+}
+
+[data-team="ferrari"] .card-year,
+[data-team="ferrari"] .card-eyebrow {
+  color: #b5000b;
+}
+
+[data-team="ferrari"] .chip strong {
+  color: #b5000b;
+}
+
+[data-team="ferrari"] .driver-number {
+  color: #ffc21a;
+}
+
+[data-team="ferrari"] .driver-photo {
+  padding: 0.5rem 0.5rem 0;
+  background: #f3e9d6;
+  border-top: 8px solid;
+  border-image: linear-gradient(90deg, #008c45 33.3%, #f4f5f0 33.3% 66.6%, #cd212a 66.6%) 1;
+  transform: rotate(-1.4deg);
+}
+
+[data-team="ferrari"] .driver-photo figcaption {
+  position: static;
+  color: #1c0d08;
+  background: none;
+}
+
+[data-team="mercedes"] :is(.team-title, .feature-title, .car-name, .driver-name) {
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+[data-team="mercedes"] .team-title {
+  font-size: clamp(3.6rem, 15vw, 17rem);
+}
+
+[data-team="mercedes"] :is(.stat-value, .card-year, .driver-number) {
+  font-weight: 300;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-team="mercedes"] .driver-name strong {
+  font-weight: 600;
+}
+
+[data-team="mercedes"] .card,
+[data-team="mercedes"] .chip,
+[data-team="mercedes"] .spec {
+  color: #e8eef2;
+  background: #0d1216f0;
+  border: 1px solid #ffffff2b;
+  border-left: 2px solid #27e6d2;
+}
+
+[data-team="mercedes"] .card-year,
+[data-team="mercedes"] .card-eyebrow {
+  color: #27e6d2;
+}
+
+[data-team="mercedes"] .card-title {
+  font-weight: 500;
+}
+
+[data-team="mercedes"] .driver-photo {
+  border: 1px solid #ffffff2b;
+  border-left: 2px solid #27e6d2;
+}
+
+[data-team="mclaren"] :is(.team-title, .stat-value, .feature-title, .car-name, .driver-number, .driver-name, .card-year) {
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+[data-team="mclaren"] .team-title {
+  font-size: clamp(3rem, 13.4vw, 15rem);
+}
+
+[data-team="mclaren"] .driver-name {
+  font-size: clamp(1.6rem, 3.1vw, 3rem);
+}
+
+[data-team="mclaren"] .driver-name span {
+  font-weight: 400;
+}
+
+[data-team="mclaren"] .card,
+[data-team="mclaren"] .chip,
+[data-team="mclaren"] .spec {
+  color: #fff4e6;
+  background: #111113;
+  box-shadow: 10px 10px 0 #ff8000;
+}
+
+[data-team="mclaren"] .chip,
+[data-team="mclaren"] .spec {
+  box-shadow: 5px 5px 0 #ff8000;
+}
+
+[data-team="mclaren"] .card-year,
+[data-team="mclaren"] .card-eyebrow {
+  color: #ff8000;
+}
+
+[data-team="mclaren"] .card-title {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+[data-team="mclaren"] .driver-number {
+  color: #fff;
+}
+
+[data-team="mclaren"] .driver-photo {
+  box-shadow: 10px 10px 0 #ff8000;
+}

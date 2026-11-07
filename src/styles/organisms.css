@@ -1,0 +1,39 @@
+.gantry {
+  display: flex;
+  gap: clamp(0.5rem, 1.6vw, 1.1rem);
+  padding: clamp(0.6rem, 1.4vw, 1rem);
+  background: #0a0a0c;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0 1px #24242a;
+}
+
+.intro-title {
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(2.2rem, 6.4vw, 6rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+.hud {
+  color: #fff;
+  background: linear-gradient(#000a, #0000);
+  text-shadow: 0 1px 6px #0007;
+}
+
+.team-title {
+  font-size: clamp(4.2rem, 17.5vw, 19rem);
+  line-height: 0.92;
+  white-space: nowrap;
+}
+
+.feature-title {
+  margin-top: 0.5rem;
+  font-size: clamp(2.2rem, 4.6vw, 4.4rem);
+  line-height: 1;
+}
+
+.car-name {
+  font-size: clamp(3.6rem, 12vw, 11rem);
+  line-height: 1;
+}

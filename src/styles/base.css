@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Ferro Rosso";
+  src:
+    local("Ferro Rosso"),
+    local("FerroRosso"),
+    url("/fonts/FerroRosso.woff2") format("woff2"),
+    url("/fonts/FerroRosso.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "A Space";
+  src:
+    local("A Space"),
+    local("ASpace"),
+    url("/fonts/ASpace.woff2") format("woff2"),
+    url("/fonts/ASpace.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --font-ferrari-title: "Ferro Rosso", var(--font-bebas), sans-serif;
+  --font-ferrari: var(--font-bebas), sans-serif;
+  --font-mercedes: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mclaren: "A Space", var(--font-display), sans-serif;
+}
+
+html {
+  background: #040406;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #040406;
+  color: var(--ink, #fff6ec);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
